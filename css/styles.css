@@ -11,6 +11,7 @@ ul li::marker {
 ul {
 	display: inline-block;
 	border: 3px solid lightsalmon;
+	border-radius: 5px;
 	margin-left: 10px;
 }
 
@@ -34,9 +35,15 @@ strong {
 	color: coral;
 }
 
+.image {
+	border: 2px solid coral;
+	border-radius: 10px;
+}
+
 .list-link,
 .link {
 	text-decoration: none;
+	transition-duration: 250ms;
 }
 
 .list-link:link,
