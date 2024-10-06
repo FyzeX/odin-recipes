@@ -1,0 +1,54 @@
+body {
+	font-family: 'Merienda', cursive;
+	background-color: lightgoldenrodyellow;
+}
+
+a:visited {
+	color: palevioletred;
+}
+
+a:hover {
+	color: coral;
+	text-decoration: underline;
+}
+
+ol li::marker,
+ul li::marker {
+	color: lightseagreen;
+}
+
+ul {
+	display: inline-block;
+	border: 3px solid lightsalmon;
+	margin-left: 10px;
+}
+
+li {
+	padding: 5px;
+}
+
+img {
+	height: 100%;
+}
+
+.heading {
+	font-size: 42px;
+	color: coral;
+}
+
+.list-link {
+	text-decoration: none;
+	color: cadetblue;
+	transition-duration: 0.2s;
+}
+
+.center {
+	text-align: center;
+}
+
+h3,
+strong {
+	background: linear-gradient(90deg, #da4453 0%, #89216b 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
