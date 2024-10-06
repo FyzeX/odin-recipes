@@ -43,7 +43,6 @@ strong {
 .list-link,
 .link {
 	text-decoration: none;
-	transition-duration: 250ms;
 }
 
 .list-link:link,
